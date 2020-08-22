@@ -1,0 +1,170 @@
+body{
+	margin:0px;
+	/*height: 4%;*/
+}
+.chnavigation-par{
+	 list-style-type: none;
+	  margin: 0px;
+	  padding: 0px;
+	 /* overflow: hidden;*/
+	  background-color: white;
+	  position: fixed;
+	  width:100%;
+	  top: 0px;
+	  z-index: 1;
+}
+.chfixed{
+	margin-bottom: 4%;
+}
+.chnavigation  a {
+	color:#9b9b9b;
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	padding:16px 25px;
+	font-weight: 500;
+}
+.chnavigation {
+	float:right;
+}
+.chnavigation  a:hover{
+     color:green;
+}
+.chflex_container{
+	display:flex;
+}
+.chgrid-container{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	grid-gap:25px;
+	padding:25px;
+}
+.chbackground{
+	background-image: url('../assets/servicesbackground8.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 100%;
+	height:500px;
+}
+.chcenter{
+	text-align: center;
+	color:white;
+	justify-content: center;
+}
+.chmargins{
+	margin:0px;
+	padding:5px;
+}
+.chbox{
+	border:1px solid #e4e4e4;
+	border-radius:10px;
+	/*margin-top: 10px 0px;*/
+	padding:10px;
+}
+.chgrey{
+	background-color: #99C68E;
+	grid-gap:10px;
+	padding:10px;
+}
+.chwhite{
+	background-color: white;
+	padding:10px;
+	border-radius: 10px;
+}
+.chblackbox{
+	background-color: rgba(0,0,0,0.7);
+	color:white;
+}
+h1{
+	color:#736AFF;
+}
+.chgrid-container2{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	grid-gap:20px;
+	padding: 0px 25px;
+	margin:4% 10%;
+}
+.chgreen{
+	background-color: #99C68E;
+	padding:10px;
+	text-align: center;
+}
+.chlightsilver{
+	background-color: #E5E4E2;
+}
+.chlightsilver:hover{
+	background-color: white;
+	border:1px solid #98AFC7;
+}
+.chcenterbutton{
+	text-align: center;
+}
+.chimagesrow {
+	margin:0px!important;
+}
+.chbox h3{
+	font-size: 2.5vh;
+	color:#9b9b9b;
+}
+.chservicestypes{
+	color:forestgreen;
+	font-weight: 500;
+	/*opacity:0.8;*/
+	text-align: center;
+}
+.galleryimageheadings{
+	color:forestgreen;
+	font-size: 4vh;
+	
+}
+.chgalleryImagedescription{
+	color:#9b9b9b;
+}
+.chgalleryimages{
+	border-radius: 10px;
+	height: 30.5vh;
+	transition: width 2s;
+}
+.chgalleryimages:hover{
+	
+	transform: scale(1.05);
+	/*transition-duration: 2s ease-in-out;*/
+}
+.typesofervicesheading{
+	color:forestgreen;
+	font-size: 4vh;
+}
+.typesofservicesdescription{
+	color:#9b9b9b;
+	font-size: 2.5vh;
+}
+.dopdownli
+{
+	/*display: flex;align-items: center;
+	justify-content: center;
+	height: 100%;*/
+	padding:9px 25px;
+}
+.dopdownbutton{
+	background-color: transparent!important;
+	font-weight: 500!important;
+    color: #9b9b9b;
+    text-transform: capitalize;
+
+}
+.dopdownbutton:focus{
+	outline:none!important;
+	background-color: transparent!important;
+	box-shadow: none!important
+	
+}
+.dropdown-menu li a{
+    text-align: center;
+    padding:10px;
+    font-size: 14px;
+    font-weight:500;
+}
+.dropdown-menu li{
+	width:100%;
+}

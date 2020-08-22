@@ -1,0 +1,53 @@
+  .mo-grid-container {
+  display: grid;
+  grid-template-columns:auto auto auto auto ;
+  background-color: #ffffff;
+  grid-gap:2px;
+  position:relative;
+}
+.mo-grid-container >div{
+	  /*background-color:lightgray;*/
+      /*text-align:center;*/
+      padding:0px;
+      /*font-size:30px;*/
+
+}
+.mo-container {
+  position: relative;
+  width: 100%;
+}
+
+
+  .mo-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  border-radius:10px;
+  width:24vw;
+}
+.mo-container:hover .mo-overlay {
+  opacity: 1;
+}
+
+.mo-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.mo-galleryimages{
+  border-radius:10px;
+  width:24vw;
+  height: 300px;
+}

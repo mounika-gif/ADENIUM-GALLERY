@@ -1,0 +1,137 @@
+.nitext {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-shadow: 2px 2px 3px grey;
+
+}
+
+.nisubmit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.nisubmit:hover {
+  background-color: #45a049;
+}
+
+.nigrid-item2 {
+  border-radius: 5px;
+  background-color:#f2f2f2;
+  padding: 20px;
+  width: 95%;
+  box-shadow: 2px 2px 8px grey; 
+}
+
+.nigrid-container {
+  display: grid;
+  grid-template-columns: 50% 45%;
+  grid-gap: 40px;
+  margin-bottom:20px;
+}
+
+.nigrid-item1{
+  background-color:#f2f2f2;
+  box-shadow: 2px 2px 8px grey; 
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius:5px;
+}
+
+.nistyle{
+  color: #777777;
+  font-size: 18px;
+  padding: 10px;
+  background-color: white;
+  width: 50%;
+  text-align: center;   
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+  box-shadow: 2px 2px 3px grey; 
+}
+.chnavigation-par{
+   list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+   /* overflow: hidden;*/
+    background-color: white;
+    position: fixed;
+    width:100%;
+    top: 0px;
+    z-index: 1;
+}
+.chfixed{
+  margin-bottom: 4%;
+}
+.chnavigation  a {
+  color:#9b9b9b;
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  padding:16px 25px;
+  font-weight: 500;
+}
+.chnavigation {
+  float:right;
+}
+.chnavigation  a:hover{
+     color:green;
+}
+.dopdownli
+{
+  /*display: flex;align-items: center;
+  justify-content: center;
+  height: 100%;*/
+  padding:9px 25px;
+}
+.dopdownbutton{
+  background-color: transparent!important;
+  font-weight: 500!important;
+    color: #9b9b9b;
+    text-transform: capitalize;
+
+}
+.dopdownbutton:focus{
+  outline:none!important;
+  background-color: transparent!important;
+  box-shadow: none!important
+  
+}
+.dropdown-menu li a{
+    text-align: center;
+    padding:10px;
+    font-size: 14px;
+    font-weight:500;
+}
+.dropdown-menu li{
+  width:100%;
+}
+.chblackbox{
+  background-color: rgba(0,0,0,0.7);
+  color:white;
+  margin-top: 1%;
+}
+.chgrid-container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:25px;
+  padding:25px;
+}
+
+
